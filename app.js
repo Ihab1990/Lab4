@@ -7,14 +7,12 @@ document.write('<p>' + answer + '</p>');
 while (answer !== 'yes' && answer !== 'no') {
     answer = prompt('Do you have a medical report, Enter yes/No');
 }
-
 if (answer === 'yes') {
     (alert('welcome to the shop'))
 }
 else if (answer === 'no') {
     (alert('go to the doctor first'))
 }
-
 alert('you can reach us on ' + '0775299163');
 
 var ans = prompt('verfiy you are not a robot enter a number from 1 to 5')
