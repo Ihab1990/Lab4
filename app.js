@@ -15,7 +15,7 @@ else if (answer === 'no') {
 }
 alert('you can reach us on ' + '0775299163');
 
-var ans = prompt('verfiy you are not a robot enter a number from 1 to 5')
+var ans = prompt('verfiy you are not a robot enter a number')
 
 var j = 0;
 
