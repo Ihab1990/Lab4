@@ -2,7 +2,15 @@ alert('This is a medical suuplies shop');
 
 var answer = prompt('Do you have a medical report, Enter  yes/ No');
 
-document.write('<p>' + answer + '</p>');
+
+
+function pargraphcreator () {
+
+    document.write('<p>' + answer + '</p>');
+    
+}
+
+pargraphcreator();
 
 while (answer !== 'yes' && answer !== 'no') {
     answer = prompt('Do you have a medical report, Enter yes/No');
@@ -19,8 +27,13 @@ var ans = prompt('verfiy you are not a robot enter a number')
 
 var j = 0;
 
+function greeting () {
+
+    alert ('Hey');
+}
+
 while (ans > j) {
-    (document.write('<img src="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop">'))
+    (document.write('<img src="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop">' + greeting()))
     j++;
 }
 
